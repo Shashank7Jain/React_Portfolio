@@ -12,6 +12,7 @@ const DivInner = styles.div`
 const H1Styles = styles.h1`
     color :white;
     padding-bottom:50px;
+    font-size:50px;
     padding-top:50px`
 const NavColor = styles.nav`
     color: white !important ;`
@@ -28,6 +29,7 @@ const Footer = () => {
             <div>
                 <Navbar bg="black" variant="dark">
                 <Nav className="mx-auto" >
+                    <Nav.Link  href="#home">HOME</Nav.Link>
                     <Nav.Link  href="#portfolio">PORTFOLIO</Nav.Link>
                     <Nav.Link href="#about">ABOUT</Nav.Link>
                     <Nav.Link href="#resume">RESUME</Nav.Link>
