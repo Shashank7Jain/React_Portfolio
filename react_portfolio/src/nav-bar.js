@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import {Link} from 'react-router-dom';
 //import logo from 'src/icon.png';
 
 
@@ -24,11 +25,16 @@ class NavBar extends Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto" >
+
               <Nav.Link href="#portfolio">PORTFOLIO</Nav.Link>
               <Nav.Link href="#about">ABOUT</Nav.Link>
-              <Nav.Link href="#resume">RESUME</Nav.Link>
+              <Link to='/resume'>
+               <Nav.Link href="#resume">RESUME</Nav.Link>
+              </Link>
               <Nav.Link href="#blog">BLOG</Nav.Link>
-              <Nav.Link href="#contact">CONTACT</Nav.Link>
+              <Link to='/contact'>
+                <Nav.Link href="#contact">CONTACT</Nav.Link>
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

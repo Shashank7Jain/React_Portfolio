@@ -48,7 +48,7 @@ const Footer = () => {
             &nbsp;&nbsp;
             <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="instagram" iconColor="rgba(11,10,10,1)" backgroundColor="rgba(250,250,255,1)" iconSize="3" roundness="41%" url="https://www.instagram.com/shashank7jain/" size="25" />
             &nbsp;&nbsp;
-            <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="github" iconColor="rgba(11,10,10,1)" backgroundColor="rgba(250,250,255,1)" iconSize="3" roundness="41%" url="https://www.insthttps://github.com/Shashank7Jainagram.com/shashank7jain/" size="25" />
+            <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="github" iconColor="rgba(11,10,10,1)" backgroundColor="rgba(250,250,255,1)" iconSize="3" roundness="41%" url="https://github.com/Shashank7Jain" size="25" />
             &nbsp;&nbsp;
             <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="mail" iconColor="rgba(11,10,10,1)" backgroundColor="rgba(250,250,255,1)" iconSize="3" roundness="41%" url="mailto:sjai6788@uni.sydney.edu.au" size="25" />
             </div>
