@@ -10,22 +10,29 @@ class NavBar extends Component {
     this.state = {};
   }
   render() {
-    
     return (
       <div>
         <Navbar bg="#fcfeff" expand="lg">
-          <Navbar.Brand href="#home">
-            <img alt="Shashank Jain" src="icon.png" width="30" height="30" />
-          </Navbar.Brand>
+          <Link to="/">
+            <Navbar.Brand href="#home">
+              <img alt="Shashank Jain" src="icon.png" width="30" height="30" />
+            </Navbar.Brand>
+          </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
-              <Nav.Link href="#portfolio">PORTFOLIO</Nav.Link>
-              <Nav.Link href="#about">ABOUT</Nav.Link>
+              <Link to="/portfolio">
+                <Nav.Link href="#portfolio">PORTFOLIO</Nav.Link>
+              </Link>
+              <Link to="/about">
+                <Nav.Link href="#about">ABOUT</Nav.Link>
+              </Link>
               <Link to="/resume">
                 <Nav.Link href="#resume">RESUME</Nav.Link>
               </Link>
-              <Nav.Link href="#blog">BLOG</Nav.Link>
+              <Link to="/blog">
+                <Nav.Link href="#blog">BLOG</Nav.Link>
+              </Link>
               <Link to="/contact">
                 <Nav.Link href="#contact">CONTACT</Nav.Link>
               </Link>
