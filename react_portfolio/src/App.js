@@ -15,9 +15,10 @@ function App() {
     <Router>
       <div className="App">
         <NavBar/>
-        <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
-
+        <Switch>
+          <Route path="/contact" component={Contact} />
+          <Route path="/resume" component={Resume} />
+        </Switch>
         <Footer/>
       </div>
     </Router>
