@@ -1,41 +1,43 @@
 import React, { Component } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 //import logo from 'src/icon.png';
 
 class NavBar extends Component {
   constructor(props) {
     super(props);
+    console.log(props.location);
     this.state = {};
   }
   render() {
+    console.log(window.location.pathname); 
+
     return (
       <div>
         <Navbar bg="#fcfeff" expand="lg">
-          <Link to="/">
-            <Navbar.Brand href="#home">
-              <img alt="Shashank Jain" src="icon.png" width="30" height="30" />
-            </Navbar.Brand>
-          </Link>
+          <Navbar.Brand as={Link} to="/">
+            <img alt="Shashank Jain" src="icon.png" width="30" height="30" />
+          </Navbar.Brand>
+
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
-              <Link to="/portfolio">
-                <Nav.Link href="#portfolio">PORTFOLIO</Nav.Link>
-              </Link>
-              <Link to="/about">
-                <Nav.Link href="#about">ABOUT</Nav.Link>
-              </Link>
-              <Link to="/resume">
-                <Nav.Link href="#resume">RESUME</Nav.Link>
-              </Link>
-              <Link to="/blog">
-                <Nav.Link href="#blog">BLOG</Nav.Link>
-              </Link>
-              <Link to="/contact">
-                <Nav.Link href="#contact">CONTACT</Nav.Link>
-              </Link>
+            <Nav.Link as={Link} to="/portfolio">
+                PORTFOLIO
+              </Nav.Link>
+              <Nav.Link as={Link} to="/about">
+                ABOUT
+              </Nav.Link>
+              <Nav.Link as={Link} to="/resume">
+                RESUME
+              </Nav.Link>
+              <Nav.Link as={Link} to="/blog">
+                BLOG
+              </Nav.Link>
+              <Nav.Link as={Link} to="/contact">
+                CONTACT
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

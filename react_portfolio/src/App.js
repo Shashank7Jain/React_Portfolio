@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route,useLocation} from 'react-router-dom';
 
 import './App.css';
 
@@ -14,11 +14,13 @@ import About from './Components/About/About';
 import Home from  './Components/Home/Home'
 
 
+
 function App() {
+  
   return (
     <Router>
       <div className="App">
-        <NavBar/>
+        <NavBar location= "{this.props.location}" />
         <Switch>
         <Route path="/" exact component={Home} />
           <Route path="/contact" component={Contact} />
