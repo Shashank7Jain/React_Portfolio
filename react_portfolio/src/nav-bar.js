@@ -10,6 +10,7 @@ class NavBar extends Component {
     this.state = {};
   }
   render() {
+    
     return (
       <div>
         <Navbar bg="#fcfeff" expand="lg">
