@@ -13,7 +13,7 @@ const Location = (props) => {
         />
         <Marker position={[-33.792382, 150.945232]}>
           <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
+           73 Toongabbie Road. <br /> Toongabbie EAST.
           </Popup>
         </Marker>
       </Map>

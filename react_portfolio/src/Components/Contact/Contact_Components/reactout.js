@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const DivStyles = styled.div`
     height: 250px;
     background: #0b4c49d9;
-    margin 75px;
+    margin 50px;
 `
 const H1Styles = styled.h1`
     color :white;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ReactOut from './reactout';
-import Location from './location'
+import ReactOut from './Contact_Components/reactout';
+import Location from './Contact_Components/location'
 
 class Contact extends Component {
     constructor(props) {
