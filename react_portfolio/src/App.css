@@ -39,7 +39,7 @@
 .nav-link{
   margin-right: 30px;
 }
-.leaflet {
+.leaflet-container{
   height: 300px;
   width: 100%;
 }
