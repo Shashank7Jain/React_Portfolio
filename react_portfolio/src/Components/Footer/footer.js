@@ -14,8 +14,6 @@ const H1Styles = styles.h1`
     padding-bottom:50px;
     font-size:50px;
     padding-top:50px`
-const NavColor = styles.nav`
-    color: white !important ;`
 const DeclareP = styles.p`
     color: gray;
     margin-top:50px;
