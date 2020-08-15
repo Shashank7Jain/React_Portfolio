@@ -1,0 +1,100 @@
+{
+ "experience":
+ [
+   {
+        "emp_type":"Part-time Employee",
+      "role":"Valet Driver",
+      "company":"Westfield",
+      "website":"https://www.westfield.com.au/",
+      "suburb":"Burwood",
+      "city":"Sydney",
+      "start_date":"Nov-19",
+      "end_date":"Present",
+      "description":"Started working as an part-time employee "
+    },
+    {
+      "emp_type":"Part-time Employee",
+      "role":"Customer Representative",
+      "company":"Myer ",
+      "website":"https://www.myer.com.au/",
+      "suburb":"Sydney City",
+      "city":"Sydney",
+      "start_date":"Nov-18",
+      "end_date":"Present",
+      "description":"Started working as an part-time employee " 
+    },
+    {
+      "emp_type":"Contracter Employee",
+      "role":"Delivery Driver",
+      "company":"Menulog",
+      "website":"https://www.menulog.com.au/",
+      "suburb":"Central Area",
+      "city":"Sydney",
+      "start_date":"Mar-20",
+      "end_date":"Present",
+      "description":"Started working as an Casual employee " 
+    },
+    {
+      "emp_type":"Contracter Employee",
+      "role":"Delivery Driver",
+      "company":"Drive Yello",
+      "website":"https://www.driveyello.com/",
+      "suburb":"Central Area",
+      "city":"Sydney",
+      "start_date":"Mar-19",
+      "end_date":"Present",
+      "description":"Started working as an Casual employee " 
+    },
+    {
+      "emp_type":"Casual Employee",
+      "role":"Stock Taker",
+      "company":"RGIS Australia",
+      "website":"https://www.rgisinv.com.au/",
+      "suburb":"Sydney Suburbs",
+      "city":"Sydney",
+      "start_date":"Jul-19",
+      "end_date":"Present",
+      "description":"Started working as an Casual employee " 
+    },
+     {
+      "emp_type":"Casual Employee",
+      "role":"Crew Team",
+      "company":"Showcall Crewing",
+      "website":"https://showcallcrewing.com.au/",
+      "suburb":"Sydney Suburbs",
+      "city":"Sydney",
+      "start_date":"Jul-19",
+      "end_date":"Present",
+      "description":"Started working as an Casual employee " 
+    },
+         {
+      "emp_type":"Part-Employee",
+      "role":"Java Developer",
+      "company":"SSIS Technologies",
+      "website":"http://www.ssis.co.in/",
+      "suburb":"Dwaraka Nager",
+      "city":"Visakhapatnem",
+      "start_date":"Jul-17",
+      "end_date":"Dec-17",
+      "description":"Started working as an Casual employee " 
+    }
+  ],
+  "education":[
+    {
+      "qualification":"Masters of Information Technology and Master of Information Technology Management",
+      "uni": "The University of Sydney",
+      "location": "Sydney, Australia",
+      "major": "Software Engineering",
+      "year":"2018-2020",
+      "description":"I am doing masters in information technology"
+    },
+    {
+      "qualification":"Batchelor of Computer Science and System Engineering",
+      "uni": "Andhra University",
+      "location": "Visakhapatnam, India",
+      "major": "Software Engineering",
+      "year": "2014-2018",
+      "description":"I am have completed my batchelor"
+    }
+    ]
+}

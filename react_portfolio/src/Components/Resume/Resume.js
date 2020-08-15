@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Technologies from './Resume_Compoents/technologies';
+import Education from './Resume_Compoents/education';
+import Experience from './Resume_Compoents/Experience';
 
 class Resume extends Component {
     constructor(props) {
@@ -7,9 +10,9 @@ class Resume extends Component {
     }
     render() { 
         return ( <div>
-            <h1>
-                Hi I am from the Resume.js
-            </h1>
+                <Technologies/>
+                <Education />
+                <Experience />
         </div> );
     }
 }
