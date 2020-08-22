@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Introduction from './Portfolio_Components/introduction';
 
 class Portfolio extends Component {
     constructor(props) {
@@ -7,9 +8,7 @@ class Portfolio extends Component {
     }
     render() { 
         return ( <div>
-            <p>
-                I am from the Portfolio.js!
-            </p>
+            <Introduction/>
         </div> );
     }
 }
