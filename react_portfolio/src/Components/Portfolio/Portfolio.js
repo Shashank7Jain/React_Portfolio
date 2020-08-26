@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Introduction from './Portfolio_Components/introduction';
+import Projects from './Portfolio_Components/projects';
 
 class Portfolio extends Component {
     constructor(props) {
@@ -7,8 +8,9 @@ class Portfolio extends Component {
         this.state = {  }
     }
     render() { 
-        return ( <div>
+        return ( <div >
             <Introduction/>
+            <Projects />
         </div> );
     }
 }

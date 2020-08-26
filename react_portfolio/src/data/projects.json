@@ -1,0 +1,24 @@
+{
+  "Projects":[
+    {
+      "name":"Capstone Project Management System | Web-based Application| PEAN Stack",
+      "description":"The final year post-graduate project was developed using PostgreSQL, Angular, Express and NodeJS. This project helps the University of Sydney manage the capstone projects by having three different modules for the client, student, and admin. Where the client can propose project, students and enrol into a project, and admin can manage the interaction.",
+      "website":"http://capstone-env.eba-gabpspyj.ap-southeast-2.elasticbeanstalk.com/login"
+    },
+    {
+      "name":"Data Analytics Web Application| Web Application Development| MEAN Stack",
+      "description":"Post-graduate web application assignment with Wikipedia API to analyse the real-time data using the MVC architecture. In the application, we used Angular 8 for frontend, Node.js for server and MongoDB for backend/ database."
+    },
+    {
+      "name":"Just Grocery | Object-Oriented Framework| Spring Framework & SQL Database",
+      "description":"Post-graduate assignment Just Grocery is based on web technology which allows customers to save their generic grocery wishlist and notify the nearest and cheapest retailer for upcoming shopping beforehand. Additionally, the application boost revenue for retailers by marketing their deals on products, help customers compare their prices among the retailers and provide information on groceries from major retailers."
+    },
+    {
+      "name":"K-mean clustering and visualization | Data Analytics and Business Intelligence| Orange, Studio 3T",
+      "description": "Post-graduate data analytics and Business Intelligence, which required cleaning of the company dataset using MS excel and studio 3T, categorize the data in various segment and store it in database using No-SQL and use Orange for visualization."
+    },
+    {
+      "name":"Online Review Analysis | Cloud Computing | PySpark and, AWS EC2",
+      "description":"Post-graduate assignment on the online review data set released by Amazon and going through various analytic phases, including getting summary statistics, removing unwanted data and performing similarity analysis. The objective was to text the ability to apply big data framework in realistic setting."
+    }]
+}
