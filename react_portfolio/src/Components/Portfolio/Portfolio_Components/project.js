@@ -5,7 +5,7 @@ const Project = (props) => {
         <h5 style={{textAlign:"left"}}>{props.pro.name}</h5>
         <p style={{textAlign:"left"}}>{props.pro.description}</p>
         <a href="{props.pro.website}">{props.pro.website}</a>
-        <br />
+        <br /> 
         <br />
     </div> );
 }

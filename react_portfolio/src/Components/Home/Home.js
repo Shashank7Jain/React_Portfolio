@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import Passion from './Home_Components/passion';
+import Technical from './Home_Components/technical_exp';
+import Myvideo from '../About/About_Components/myvideo';
+import Instagram from '../About/About_Components/instagramfeed';
+import Help from './Home_Components/help'
 
 class Home extends Component {
     constructor(props) {
@@ -7,7 +12,11 @@ class Home extends Component {
     }
     render() { 
         return ( <div>
-            <h1>HI I am from the Home Page!</h1>
+            <Passion />
+            <Technical />
+            < Myvideo />
+            < Help />
+            < Instagram />
         </div> );
     }
 }
