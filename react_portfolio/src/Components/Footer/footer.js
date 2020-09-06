@@ -9,14 +9,14 @@ const DivStyles = styles.div`
     height :500px;
     background: black;`
 const DivInner = styles.div`
-    padding:10px`
+    padding:20px`
 const H1Styles = styles.h1`
     color :white;
     padding-bottom:50px;
     font-size:50px;
     padding-top:50px`
 const DeclareP = styles.p`
-    color: #f44336;
+    color: white;
     margin-top:50px;
     margin-bottom:50px;
     `
@@ -24,6 +24,7 @@ const DeclareP = styles.p`
 const Footer = () => {
     const style = {
         fontSize: "1.2rem",
+        padding: "10px",
         color: '#f44336',
         "&:hover": {
           background: "#efefef",

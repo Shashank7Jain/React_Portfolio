@@ -1,6 +1,6 @@
 import React from 'react';
 import {Map,Marker,Popup,TileLayer} from "react-leaflet";
-
+import styles from 'styled-components';
 
 
 
@@ -13,7 +13,7 @@ const Location = (props) => {
         />
         <Marker position={[-33.792382, 150.945232]}>
           <Popup>
-           73 Toongabbie Road. <br /> Toongabbie EAST.
+           75 Toongabbie Road. <br /> Toongabbie EAST 2146 NSW
           </Popup>
         </Marker>
       </Map>

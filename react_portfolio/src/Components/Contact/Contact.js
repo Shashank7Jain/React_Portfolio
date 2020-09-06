@@ -9,8 +9,12 @@ class Contact extends Component {
     }
     render() { 
         return ( <div>
-            <ReactOut></ReactOut>
-            <Location></Location>
+            <section>
+                <ReactOut></ReactOut>
+            </section>
+            <section>
+                <Location></Location>
+            </section>
         </div> );
     }
 }
