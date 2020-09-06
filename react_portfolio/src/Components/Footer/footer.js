@@ -1,9 +1,9 @@
-import React,{useEffect} from 'react';
+import React from 'react';
 import styles from 'styled-components';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav';
 import {SocialMediaIconsReact} from 'social-media-icons-react';
-import { Link, useLocation } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 const DivStyles = styles.div`
     height :500px;
@@ -16,15 +16,22 @@ const H1Styles = styles.h1`
     font-size:50px;
     padding-top:50px`
 const DeclareP = styles.p`
-    color: gray;
+    color: #f44336;
     margin-top:50px;
     margin-bottom:50px;
     `
 
 const Footer = () => {
-    useEffect(() => {
-        window.scrollTo(0, 0)
-      }, [])
+    const style = {
+        fontSize: "1.2rem",
+        color: '#f44336',
+        "&:hover": {
+          background: "#efefef",
+          "&:last-child": {
+            borderRight: "solid 1px #cccccc",
+          },
+        },
+      };
     return ( 
         <DivStyles>
             <DivInner>
@@ -32,12 +39,12 @@ const Footer = () => {
             <div>
                 <Navbar bg="black" variant="dark">
                 <Nav className="mx-auto" >
-                    <Nav.Link  as={Link} to="/">HOME</Nav.Link>
-                    <Nav.Link as={Link} to="/portfolio">PORTFOLIO</Nav.Link>
-                    <Nav.Link as={Link} to="/about">ABOUT</Nav.Link>
-                    <Nav.Link as={Link} to="/resume">RESUME</Nav.Link>
-                    <Nav.Link as={Link} to="/blog">BLOG</Nav.Link>
-                    <Nav.Link as={Link} to="/contact">CONTACT</Nav.Link>
+                    <Nav.Link style={style} as={Link} to="/">HOME</Nav.Link>
+                    <Nav.Link style={style} as={Link} to="/portfolio">PORTFOLIO</Nav.Link>
+                    <Nav.Link style={style} as={Link} to="/about">ABOUT</Nav.Link>
+                    <Nav.Link style={style} as={Link} to="/resume">RESUME</Nav.Link>
+                    <Nav.Link style={style} as={Link} to="/blog">BLOG</Nav.Link>
+                    <Nav.Link style={style} as={Link} to="/contact">CONTACT</Nav.Link>
                 </Nav>
                 </Navbar>
             </div>

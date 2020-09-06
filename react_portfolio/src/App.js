@@ -12,13 +12,16 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import Blog from "./Components/Blog/Blog";
 import About from "./Components/About/About";
 import Home from "./Components/Home/Home";
+import ScrollToTop from "./scrollToTop";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <NavBar location="{this.props.location}" />
+        <NavBar location={window.location} />
+        <ScrollToTop>
         <Switch>
+          
           <Route path="/" exact component={Home} />
           <Route path="/contact" component={Contact} />
           <Route path="/resume" component={Resume} />
@@ -26,6 +29,7 @@ function App() {
           <Route path="/blog" component={Blog} />
           <Route path="/portfolio" component={Portfolio} />
         </Switch>
+        </ScrollToTop>
         <Footer />
       </div>
     </Router>
