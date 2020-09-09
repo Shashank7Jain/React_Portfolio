@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #fffdfc;
+  
 }
 
 .App-logo {
@@ -43,4 +43,12 @@
 .leaflet-container{
   height: 300px;
   width: 100%;
+}
+.a{
+  text-decoration: none !important;
+}
+.card-img-top{
+  object-fit: cover;
+    height: 15rem;
+    width:100%;
 }

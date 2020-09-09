@@ -1,43 +1,64 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import styled from "styled-components";
 
 import resume_data from "../../../data/resume_data.json";
+
+const H5Styles = styled.h5`
+  font-size: 24px;
+  font-weight: 400;
+`;
+const PTag = styled.p`
+  font-size: 18px;
+  font-weight: 500;
+`;
+const Astyled=styled.a`
+    font-weight:600;
+    text-decoration:none !important;
+    &:hover  {
+        color: black;
+    }
+`;
 
 const Education = (props) => {
   console.log(resume_data.education[0].description);
   return (
-    <div style={{ marginTop: "50px", marginBottom: "50px", textAlign: "left" }}>
+    <div style={{ marginTop: "50px", marginBottom: "50px", textAlign: "left",backgroundColor: "#fffdfc" }}>
       <Container>
         <Row>
           <Col xs={4}>
-            <h5>Education</h5>
+            <H5Styles>Education</H5Styles>
           </Col>
           <Col>
-            <p>
+            
+            
+            <PTag>
               {" "}
-              <b>
-                {resume_data.education[0].qualification} (
-                {resume_data.education[0].major} )
-              </b>
-            </p>
-            <p>
-              {resume_data.education[0].uni},{resume_data.education[0].location}{" "}
-              {resume_data.education[0].year}
-            </p>
+              {resume_data.education[0].qualification} (
+              {resume_data.education[0].major} )
+            </PTag>
+            <PTag>
+              <Astyled href="https://www.sydney.edu.au/">
+                {resume_data.education[0].uni}
+              </Astyled> <i> {resume_data.education[0].year} </i>
+            </PTag>
             <p>{resume_data.education[0].description}</p>
             <br />
-            <p>
+
+           
+            <PTag>
               {" "}
-              <b>
-                {resume_data.education[1].qualification} (
-                {resume_data.education[1].major} )
-              </b>
-            </p>
-            <p>
-              {resume_data.education[1].uni},{resume_data.education[1].location}{" "}
-              {resume_data.education[1].year}
-            </p>
+              {resume_data.education[1].qualification} (
+              {resume_data.education[1].major} )
+            </PTag>
+            <PTag>
+              <Astyled href="https://www.sydney.edu.au/">
+                {resume_data.education[1].uni}
+              </Astyled> <i> {resume_data.education[1].year} </i>
+            </PTag>
             <p>{resume_data.education[1].description}</p>
+            <br />
+            
           </Col>
         </Row>
       </Container>

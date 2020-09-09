@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 import {Col, Container, Row} from 'react-bootstrap';
+import styled from 'styled-components';
 
 import Experience from './experience'
 import resume_data from '../../../data/resume_data.json';
 
+const H5Styles = styled.h5`
+  font-size: 24px;
+  font-weight: 400;
+`;
 class Experiences extends Component {
     constructor(props) {
         super(props);
@@ -11,11 +16,11 @@ class Experiences extends Component {
     }
     render() { 
         return (   
-        <div style={{ marginTop: "50px", marginBottom: "50px", textAlign:"left" }}>
+        <div style={{ marginTop: "50px", marginBottom: "50px", textAlign:"left", backgroundColor: "#fffdfc" }}>
         <Container>
           <Row>
             <Col xs={4}>
-             <h5> Experience</h5>
+             <H5Styles> Experience</H5Styles>
             </Col>
             <Col>
                 {resume_data.experiences.map((exp,index)=>{

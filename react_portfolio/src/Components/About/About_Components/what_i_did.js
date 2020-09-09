@@ -1,11 +1,63 @@
-import React from 'react';
+import React from "react";
+import styles from "styled-components";
+
+const DivStyles = styles.div`
+    height:500px;
+    background-color: white;
+    margin:100px;
+    `;
+const H1Styles = styles.h1`
+    font-size:60px;
+`;
+const PStyles = styles.p`
+    color: #000000;
+    font-size: 20px;
+`;
+//const history = useHistory();
+//const contactButton = () => history.push('login');
+
+const ButtonStyles = styles.button`
+    border: 1px solid black;
+    background: none;
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-right:30px;
+    padding-left:30px;
+    margin-left 20px;
+    color: blue;
+    &:hover  {
+        color: black;
+    }
+`;
+const resumeButton = () => {
+ // console.log("need to work on the contact button");
+  window.location.href = "/resume";
+};
 
 const WhatIDid = (props) => {
-    return ( <div style={{ height: "500px", margin:"100px" }}>
-        <h1 style={{marginBottom:"100px"}}>What I've done & what I can do?</h1>
-        <p style={{marginBottom:"100px"}}>Feel free to take a deeper look at what I've accomplished over the years and what I'm able to do for you. My resume goes over the standard items, but please understand that I don't embellish my capabilities (no good ever comes out of that).</p>
-        <button>VIEW MY RESUME</button>
-    </div> );
-}
- 
+  return (
+      <div style={{ backgroundColor: "white" }}>
+        <DivStyles>
+          <p style={{ height: "40px" }}></p>
+          <H1Styles>What I've done & what I can do?</H1Styles>
+          <br />
+          <br />
+          <br />
+          <PStyles>
+            Feel free to take a deeper look at what I've accomplished over the
+            years and what I'm able to do for you. My resume goes over the
+            standard items, but please understand that I don't embellish my
+            capabilities (no good ever comes out of that).
+          </PStyles>
+          <br />
+          <br />
+          <br />
+          <ButtonStyles type="button" onClick={resumeButton}>
+            RESUME
+          </ButtonStyles>
+        </DivStyles>
+      </div>
+  );
+};
+
 export default WhatIDid;

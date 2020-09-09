@@ -11,10 +11,10 @@ class Resume extends Component {
     }
     render() { 
         return ( <div>
-                <Technologies/>
-                <Education />
-                <Experiences />
-                <Hireme/>
+                <section><Technologies/></section>
+                <section><Education/></section>
+                <section><Experiences/></section>
+                <section><Hireme/></section>
         </div> );
     }
 }

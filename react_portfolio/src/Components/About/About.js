@@ -11,10 +11,10 @@ class About extends Component {
     }
     render() { 
         return ( <div>
-            <Fact/>
-            <Myvideo />
-            <Instagram />
-            <WhatIDid />
+            <section><Fact/></section>
+            <section><Myvideo /></section>
+            <section><Instagram /></section>
+           <section><WhatIDid/></section>
         </div> );
     }
 }

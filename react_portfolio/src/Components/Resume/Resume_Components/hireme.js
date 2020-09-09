@@ -1,36 +1,59 @@
-import React from 'react';
-import styles from 'styled-components';
-import { useHistory } from "react-router-dom";
-
-//const history = useHistory();
-
+import React from "react";
+import styles from "styled-components";
 
 const DivStyles = styles.div`
-    height :500px;
-    background: #fffff;
-    margin-right:80px;
-    margin-left:80px`;
-const contactButton =()=>
-{
-    // let path = '/contact';
-    // History.push(path)
-    console.log("need to work on the contact button");
-}
+    height:600px;
+    background-color: white;
+    `;
+const H1Styles = styles.h1`
+    font-size:60px;
+`;
+const PStyles = styles.p`
+    color: #000000;
+    font-size: 20px;
+`;
+
+const ButtonStyles = styles.button`
+    border: 1px solid black;
+    background: none;
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-right:30px;
+    padding-left:30px;
+    margin-left 20px;
+    color: blue;
+
+    &:hover  {
+        color: black;
+    }
+
+`;
+const contactButton = () => {
+  window.location.href = "/contact";
+};
 const Hireme = (props) => {
-    return ( 
-        <DivStyles >
-            <h1>Hire me today!</h1>
-            <br/>
-            <br/>
-            <br/>
-            <h4>Now that you know what I did and what I might do for you, feel free to 
-                reach out and start a conversation. For committed company,  I really love to be a part of their success.</h4>
-            <br/>
-            <br/>
-            <br/>
-            <button type='button' onClick={contactButton}>CONTACT ME</button>
-        </DivStyles>
-     );
-}
- 
+  return (
+    <div style={{ backgroundColor: "white" }}>
+      <DivStyles>
+        <p style={{ height: "40px" }}></p>
+        <H1Styles>Hire me today!</H1Styles>
+        <br />
+        <br />
+        <br />
+        <PStyles>
+          Now that you know what expericence I have and what I might do for you,
+          feel free to reach out. <br /> For committed company, I really love to
+          be a part of their success.
+        </PStyles>
+        <br />
+        <br />
+        <br />
+        <ButtonStyles type="button" onClick={contactButton}>
+          CONTACT ME TODAY
+        </ButtonStyles>
+      </DivStyles>
+    </div>
+  );
+};
+
 export default Hireme;

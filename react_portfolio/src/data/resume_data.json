@@ -2,25 +2,25 @@
  "experiences":
  [
    {
-        "emp_type":"Part-time Employee",
+        "emp_type":"Christmas Casual Employee",
       "role":"Valet Driver",
       "company":"Westfield",
       "website":"https://www.westfield.com.au/",
       "suburb":"Burwood",
       "city":"SYD",
       "start_date":"Nov-19",
-      "end_date":"Present",
+      "end_date":"Feb-20",
       "description":"Started working as an part-time employee "
     },
     {
-      "emp_type":"Part-time Employee",
+      "emp_type":"Christmas Casual Employee",
       "role":"Customer Representative",
       "company":"Myer",
       "website":"https://www.myer.com.au/",
       "suburb":"Sydney City",
       "city":"SYD",
       "start_date":"Nov-18",
-      "end_date":"Present",
+      "end_date":"Feb-19",
       "description":"Started working as an part-time employee " 
     },
     {
@@ -81,7 +81,7 @@
   ],
   "education":[
     {
-      "qualification":"Master of Information Technology and Master of Information Technology Management",
+      "qualification":"Master of Information Technology & Master of Information Technology Management",
       "uni": "The University of Sydney",
       "location": "Sydney, Australia",
       "major": "Software Engineering",

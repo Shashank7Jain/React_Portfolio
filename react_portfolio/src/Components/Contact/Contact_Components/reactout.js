@@ -6,7 +6,7 @@ const DivStyles = styled.div`
     background: #fffdfc;
     margin: 100px;
     border: solid 1px;
-    border-color: orange;
+    border-color: #0067d44d;
 
 `
 const H1Styles = styled.h1`
