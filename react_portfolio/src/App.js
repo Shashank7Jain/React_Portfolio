@@ -18,16 +18,16 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <NavBar location={window.location} />
+        <NavBar/>
         <ScrollToTop>
         <Switch>
           
           <Route path="/" exact component={Home} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/resume" component={Resume} />
-          <Route path="/about" component={About} />
-          <Route path="/blog" component={Blog} />
-          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/contact" exact component={Contact} />
+          <Route path="/resume" exact component={Resume} />
+          <Route path="/about" exact component={About} />
+          <Route path="/blog" exact component={Blog} />
+          <Route path="/portfolio" exact component={Portfolio} />
         </Switch>
         </ScrollToTop>
         <Footer />

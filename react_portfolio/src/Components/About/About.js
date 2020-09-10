@@ -12,7 +12,7 @@ class About extends Component {
     render() { 
         return ( <div>
             <section><Fact/></section>
-            <section><Myvideo /></section>
+            <section><Myvideo color={"white"} /></section>
             <section><Instagram /></section>
            <section><WhatIDid/></section>
         </div> );

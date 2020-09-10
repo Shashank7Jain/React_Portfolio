@@ -16,6 +16,13 @@ const H5Styles = styles.h5`
 const PStyles = styles.p`
   text-align:left;
 `;
+const Astyled=styles.a`
+    font-weight:600;
+    text-decoration:none !important;
+    &:hover  {
+        color: black;
+    }
+`;
 
 const Projects = (props) => {
   console.log(projects);
@@ -33,7 +40,7 @@ const Projects = (props) => {
               })}
               <PStyles style={{ textAlign: "left" }}>
                 For further information and code, kindly refer my{" "}
-                <a href="https://github.com/Shashank7Jain">GitHub Repository</a>
+                <Astyled href="https://github.com/Shashank7Jain">GitHub Repository</Astyled>
               </PStyles>
             </Col>
           </Row>

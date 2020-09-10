@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const AStyles = styled.a`
   color: #e0b057s;
-  font-weight: 400;
+  font-weight: 600;
   text-decoration: none !important;
   &:hover {
     color: black;
