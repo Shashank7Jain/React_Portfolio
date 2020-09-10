@@ -1,10 +1,29 @@
-import React from 'react';
+import React from "react";
+import styles from 'styled-components';
+
+const PStyles = styles.p`
+    color: #000000;
+    font-size: 25px;
+    margin-top:100px;
+`;
+const H1Styles = styles.h1`
+    font-size:60px;
+    margin-bottom:100px
+`;
 
 const Introduction = (props) => {
-    return ( <div style={{ height: "500px", margin:"100px" }}>
-        <h1 style={{marginBottom:"100px"}}>I am a dedicated Software Developer</h1>
-        <p style={{marginBottom:"100px"}}>Being that I've based my business off of the Squarespace platform, there's nothing I can't handle. Below you'll find a selection of some of my most recent Squarespace projects that showcase the type of clients I work closely with.</p>
-    </div> );
-}
- 
+  return (
+    <div style={{ height: "auto", padding: "100px" }}>
+      <H1Styles>
+        I'm a dedicated developer
+      </H1Styles>
+      <PStyles >
+        Being that I've based my career on Information Technology, and
+        there's nothing I can't handle. Below you'll find a selection of some of
+        my most recent projects that showcase the type of skills I possess.
+      </PStyles>
+    </div>
+  );
+};
+
 export default Introduction;
