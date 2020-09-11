@@ -2,8 +2,9 @@ import React from "react";
 import styles from "styled-components";
 
 const DivStyles = styles.div`
-    height:600px;
+    height:auto;
     background-color: white;
+    padding:50px 100px;
     `;
 const H1Styles = styles.h1`
     font-size:60px;
@@ -21,10 +22,11 @@ const ButtonStyles = styles.button`
     padding-right:30px;
     padding-left:30px;
     margin-left 20px;
-    color: blue;
+    color: black;
 
     &:hover  {
-        color: black;
+        color: white;
+        background-color:black;
     }
 
 `;
@@ -35,7 +37,6 @@ const Hireme = (props) => {
   return (
     <div style={{ backgroundColor: "white" }}>
       <DivStyles>
-        <p style={{ height: "40px" }}></p>
         <H1Styles>Hire me today!</H1Styles>
         <br />
         <br />

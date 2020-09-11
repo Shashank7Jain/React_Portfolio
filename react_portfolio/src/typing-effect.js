@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
-import css from "./App.css";
 
 
-const TypingEffect = () => {
+
+const TypingEffect = (props) => {
     return ( 
         <div style={{padding:"100px"}}>
         <ReactTypingEffect
-    text={["I'm Shashank Jain","Welcome to my portfolio!"]}
+    text={props.text}
         speed="400"
-        eraseDelay="300"
-        typingDelay="300"
+        eraseDelay="100"
+        typingDelay="200"
         className="typing-styles"
       /> 
       </div>);

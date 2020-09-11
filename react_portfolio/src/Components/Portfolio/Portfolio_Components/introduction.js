@@ -13,13 +13,13 @@ const H1Styles = styles.h1`
 
 const Introduction = (props) => {
   return (
-    <div style={{ height: "auto", padding: "100px" }}>
+    <div style={{ height: "auto", padding: "100px", backgroundColor:"#fffdfc" }}>
       <H1Styles>
         I'm a dedicated developer
       </H1Styles>
       <PStyles >
         Being that I've based my career on Information Technology, and
-        there's nothing I can't handle. Below you'll find a selection of some of
+        there's nothing I can't handle. <br/> Below you'll find a selection of some of
         my most recent projects that showcase the type of skills I possess.
       </PStyles>
     </div>

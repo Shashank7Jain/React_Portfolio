@@ -2,11 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 
 const DivStyles = styled.div`
-    height: 250px;
-    background: #fffdfc;
-    margin: 100px;
-    border: solid 1px;
-    border-color: #0067d44d;
+    height: auto;
+    background: #fffdfc ;
+    padding: 100px;
+    
 
 `
 const H1Styles = styled.h1`
@@ -28,9 +27,10 @@ const ReactOut = (props) => {
     return ( 
     <div>
         <DivStyles>
-
+            <div style={{height:"auto", outline: "2px solid #000"}}>
             <H1Styles>Reach out to me directly!  </H1Styles>
-            <h1><AStyles href="tel:0469321345">0469321345</AStyles> || <AStyles href="mail:1509sj@gmail.com">1509sj@gmail.com</AStyles></h1>
+            <h1 style={{paddingBottom:"40px"}}>Call: <AStyles href="tel:0469321345">0469321345</AStyles> || Email: <AStyles href="mail:1509sj@gmail.com">1509sj@gmail.com</AStyles></h1>
+            </div>
         </DivStyles>
         <div>
             

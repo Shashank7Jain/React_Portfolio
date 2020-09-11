@@ -3,15 +3,23 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { Link, NavLink } from "react-router-dom";
 import styles from "./Navbar.module.css";
+import styled from 'styled-components';
 //import logo from 'src/icon.png';
+
+const LinkStyle = styled(NavLink)`     
+  font-size:20px;
+  font-family:auto;
+
+  &:hover  {
+    text-decoration: underline;
+}
+`;
 class NavBar extends Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
   render() {
-    console.log(window.location);
-
     return (
       <div className={styles.background}>
         <div className={styles.divstyle}>
@@ -22,27 +30,27 @@ class NavBar extends Component {
 
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="mx-auto" style={{ color: "black" }}>
-                <NavLink className="nav-item nav-link"
-                  exact
+              <Nav className="mx-auto">
+                <LinkStyle className="nav-item nav-link"
+                  
                   as={Link}
                   to="/portfolio"
-                  activeClassName="active"
+                  
                 >
                   PORTFOLIO
-                </NavLink>
-                <NavLink className="nav-item nav-link active" as={Link} activeClassName="active" to="/about">
+                </LinkStyle>
+                <LinkStyle className="nav-item nav-link" as={Link}  to="/about">
                   ABOUT
-                </NavLink>
-                <NavLink className="nav-item nav-link" as={Link} activeClassName="active" to="/resume">
+                </LinkStyle>
+                <LinkStyle className="nav-item nav-link" as={Link}  to="/resume">
                   RESUME
-                </NavLink>
-                <NavLink className="nav-item nav-link" as={Link} activeClassName="active" to="/blog">
+                </LinkStyle>
+                <LinkStyle className="nav-item nav-link" as={Link}  to="/blog">
                   BLOG
-                </NavLink>
-                <NavLink className="nav-item nav-link" as={Link} activeClassName="active" to="/contact">
+                </LinkStyle>
+                <LinkStyle className="nav-item nav-link" as={Link}  to="/contact">
                   CONTACT
-                </NavLink>
+                </LinkStyle>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

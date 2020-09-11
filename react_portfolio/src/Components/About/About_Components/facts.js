@@ -13,9 +13,9 @@ const Fact = (props) => {
             <h1>A few fun facts about myself!</h1>
             <br />
             <p>
-              I was born and bought up in India, came to Sydney 2 times as a tourist and that's when I decided to 
-              do my masters here. I hobbies are taking photos, cooking and playing badminton. I'm from big family and I'm the youngest of all
-              I am not a big fan of any sports because I enjoy playing them. My lucky number is 7 and I love travelling along.
+              I was born and bought up South India, but my parents are from North India.  
+              I hobbies photography, cooking, and badminton. I'm from big family and my eldest sister is 18 years older than me and I was never pampered at home.
+              I'm not a big fan of watching sports because I enjoy playing them. My lucky number is 7 and I love exploring places.
             </p>
           </Col>
         </Row>

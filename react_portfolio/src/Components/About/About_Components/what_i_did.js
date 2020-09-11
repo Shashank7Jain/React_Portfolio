@@ -2,9 +2,10 @@ import React from "react";
 import styles from "styled-components";
 
 const DivStyles = styles.div`
-    height:500px;
+    height:auto;
     background-color: white;
-    margin:100px;
+    padding:100px;
+
     `;
 const H1Styles = styles.h1`
     font-size:60px;
@@ -24,9 +25,10 @@ const ButtonStyles = styles.button`
     padding-right:30px;
     padding-left:30px;
     margin-left 20px;
-    color: blue;
+    color: black;
     &:hover  {
-        color: black;
+        color: white;
+        background:black;
     }
 `;
 const resumeButton = () => {
@@ -45,15 +47,15 @@ const WhatIDid = (props) => {
           <br />
           <PStyles>
             Feel free to take a deeper look at what I've accomplished over the
-            years and what I'm able to do for you. My resume goes over the
+            years and what I'm able to do for you. <br/> My resume goes over the
             standard items, but please understand that I don't embellish my
-            capabilities (no good ever comes out of that).
+            capabilities <br/> (no good ever comes out of that).
           </PStyles>
           <br />
           <br />
           <br />
           <ButtonStyles type="button" onClick={resumeButton}>
-            RESUME
+            VIEW MY RESUME
           </ButtonStyles>
         </DivStyles>
       </div>

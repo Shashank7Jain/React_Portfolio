@@ -7,6 +7,7 @@ const DivStyles= styled.div`
     background-image:url("nee.jpg");
     background-size:cover;
     background-position:center;
+    border: 1px white;
 `;
 
 const ButtonStyles = styled.button`
@@ -20,7 +21,8 @@ const ButtonStyles = styled.button`
     color: white;
 
     &:hover  {
-        color: orange;
+        color: white;
+        background:black
     }
 
 `;
@@ -32,6 +34,7 @@ const contactButton = () => {
 
 const Help = (props) => {
     return ( <DivStyles >
+        <div style={{height:"auto", outline: "2px solid #CCC"}}>
         <br />
         <h1 style={{color:"white"}}>Need help from a Web Developer</h1>
         <h1 style={{color:"white"}}>Lets discuss your needs in detail.</h1>
@@ -39,6 +42,8 @@ const Help = (props) => {
         <br />
         <ButtonStyles type="button" onClick={contactButton}>I'M HERE TO HELP YOU</ButtonStyles>
         <br></br>
+        <br></br>
+        </div>
     </DivStyles> );
 }
  

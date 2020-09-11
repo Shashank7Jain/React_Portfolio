@@ -16,7 +16,6 @@ const ButtonStyles = styles.button`
         color: white;
         background-color:black
     }
-
 `;
 const instaButton = () => {
   window.location.assign("https://www.instagram.com/shashank7jain/");
@@ -38,7 +37,8 @@ const Instagram = (props) => {
         <Container>
           <Row style={{ paddingTop: "20px" }}>
             <Col xs lg="12">
-              <h1 style={{ fontSize: "50px" }}>My Instagram Feed</h1>
+              <h1 style={{ fontSize: "60px", paddingBottom:"20px" }}>My Instagram Feed</h1>
+
             </Col>
           </Row>
           <Row>
@@ -56,7 +56,7 @@ const Instagram = (props) => {
 
             <Col xs lg="3">
               <Card>
-                <Card.Img variant="top" src="insta3.jpg" />
+                <Card.Img variant="top" src="insta4.jpg" />
               </Card>
             </Col>
 
@@ -82,7 +82,7 @@ const Instagram = (props) => {
 
             <Col xs lg="3">
               <Card>
-                <Card.Img variant="top" src="insta4.jpg" />
+                <Card.Img variant="top" src="insta3.jpg" />
               </Card>
             </Col>
 
@@ -92,7 +92,7 @@ const Instagram = (props) => {
               </Card>
             </Col>
           </Row>
-          <Row style={{ padding: "50px" }}>
+          <Row style={{ paddingTop: "50px" }}>
             <Col xs lg="12">
               <ButtonStyles type="button" onClick={instaButton}>
                 FOLLOW ME ON INSTA

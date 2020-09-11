@@ -7,11 +7,12 @@ import styles from "styled-components";
 const Divstyles = styles.div`
   height:auto;
   padding:100px;
-  background-color:#fffdfc
 `;
 const H5Styles = styles.h5`
-  font-size: 26px;
+  font-size:24px;
   font-weight: 400;
+  font-family:auto;
+  text-align: left  ;
 `;
 const PStyles = styles.p`
   text-align:left;
@@ -29,7 +30,7 @@ const Projects = (props) => {
   return (
     <Divstyles>
       <div>
-        <Container>
+        <Container fluid>
           <Row>
             <Col xs={4}>
               <H5Styles>MY PROJECTS</H5Styles>

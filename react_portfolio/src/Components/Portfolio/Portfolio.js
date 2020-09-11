@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Introduction from './Portfolio_Components/introduction';
 import Projects from './Portfolio_Components/projects';
-import Project from './Portfolio_Components/project';
+import TypingEffect from "../../typing-effect";
 
 class Portfolio extends Component {
     constructor(props) {
@@ -10,6 +10,9 @@ class Portfolio extends Component {
     }
     render() { 
         return ( <div >
+             <section>
+        <TypingEffect text={["What I did so far!"]}/>
+        </section>
             <section><Introduction /></section>
             <section><Projects /></section>
         </div> );

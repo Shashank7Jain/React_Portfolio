@@ -16,7 +16,7 @@ class Experiences extends Component {
     }
     render() { 
         return (   
-        <div style={{ marginTop: "50px", marginBottom: "50px", textAlign:"left", backgroundColor: "#fffdfc" }}>
+        <div style={{ padding:"50px 100px", textAlign:"left", backgroundColor: "#fffdfc" }}>
         <Container>
           <Row>
             <Col xs={4}>

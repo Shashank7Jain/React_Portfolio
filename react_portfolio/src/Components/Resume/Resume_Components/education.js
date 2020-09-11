@@ -5,8 +5,10 @@ import styled from "styled-components";
 import resume_data from "../../../data/resume_data.json";
 
 const H5Styles = styled.h5`
-  font-size: 24px;
-  font-weight: 400;
+font-size:24px;
+font-weight: 400;
+font-family:auto;
+text-align: left  ;
 `;
 const PTag = styled.p`
   font-size: 18px;
@@ -21,15 +23,14 @@ const Astyled=styled.a`
 `;
 
 const Education = (props) => {
-  console.log(resume_data.education[0].description);
   return (
-    <div style={{ marginTop: "50px", marginBottom: "50px", textAlign: "left",backgroundColor: "#fffdfc" }}>
-      <Container>
+    <div style={{ padding:"50px 100px", textAlign: "left" }}>
+      <Container fluid>
         <Row>
-          <Col xs={4}>
+          <Col xs lg={4}>
             <H5Styles>Education</H5Styles>
           </Col>
-          <Col>
+          <Col xs lg={8}>
             
             
             <PTag>
@@ -39,7 +40,7 @@ const Education = (props) => {
             </PTag>
             <PTag>
               <Astyled href="https://www.sydney.edu.au/">
-                {resume_data.education[0].uni}
+                {resume_data.education[0].uni},
               </Astyled> <i> {resume_data.education[0].year} </i>
             </PTag>
             <p>{resume_data.education[0].description}</p>
@@ -52,12 +53,11 @@ const Education = (props) => {
               {resume_data.education[1].major} )
             </PTag>
             <PTag>
-              <Astyled href="https://www.sydney.edu.au/">
-                {resume_data.education[1].uni}
+              <Astyled href="https://www.andhrauniversity.edu.in/">
+                {resume_data.education[1].uni},
               </Astyled> <i> {resume_data.education[1].year} </i>
             </PTag>
             <p>{resume_data.education[1].description}</p>
-            <br />
             
           </Col>
         </Row>

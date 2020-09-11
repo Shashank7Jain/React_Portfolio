@@ -15,7 +15,7 @@ const Technical = (props) => {
         <p style={{fontSize:"25px"}}>
             Worked with these languages 
         </p>
-        <div style={{margin:"50px"}}>
+        <div >
             <Container>
                 <Row>
                     <Col xs lg={2}><ImgStyles src="logo512.png" width="150px" height="150px" alt="ReactJS" /></Col>

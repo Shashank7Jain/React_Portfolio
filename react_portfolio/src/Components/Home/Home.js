@@ -4,6 +4,7 @@ import Technical from "./Home_Components/technical_exp";
 import Myvideo from "../About/About_Components/myvideo";
 import Instagram from "../About/About_Components/instagramfeed";
 import Help from "./Home_Components/help";
+import TypingEffect from "../../typing-effect";
 
 class Home extends Component {
   constructor(props) {
@@ -14,10 +15,13 @@ class Home extends Component {
     return (
       <div>
         <section>
+        <TypingEffect text={["I'm Shashank Jain","Welcome to my Site!"]}/>
+        </section>
+        <section>
           <Passion />
         </section>
         <section>
-          <Myvideo color={"#fffdfc"}/>
+          <Myvideo color={"white"}/>
         </section>
         <section>
           <Technical />

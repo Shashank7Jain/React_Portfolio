@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactOut from './Contact_Components/reactout';
-import Location from './Contact_Components/location'
+import Location from './Contact_Components/location';
+import TypingEffect from "../../typing-effect";
 
 class Contact extends Component {
     constructor(props) {
@@ -9,6 +10,9 @@ class Contact extends Component {
     }
     render() { 
         return ( <div>
+             <section>
+                <TypingEffect text={["Connect with me Today!"]}/>
+            </section>
             <section>
                 <ReactOut></ReactOut>
             </section>

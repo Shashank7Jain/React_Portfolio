@@ -6,7 +6,7 @@ import { SocialMediaIconsReact } from "social-media-icons-react";
 import { Link } from "react-router-dom";
 
 const DivStyles = styles.div`
-    height :500px;
+    height :auto;
     background: black;`;
 const DivInner = styles.div`
     padding:20px`;
@@ -20,46 +20,50 @@ const DeclareP = styles.p`
     margin-top:50px;
     margin-bottom:50px;
     `;
+const LinkStyle = styles(Nav.Link)`     
+    font-size:18px;
+    font-family:auto;
+    padding:"10px"
+  
+    &:hover  {
+      text-decoration: underline;
+  }
+  `;
 
 const Footer = () => {
   const style = {
     fontSize: "1.2rem",
     padding: "10px",
-    color: "#f44336",
-    "&:hover": {
-      background: "#efefef",
-      "&:last-child": {
-        borderRight: "solid 1px #cccccc",
-      },
-    },
   };
   return (
     <DivStyles>
       <DivInner>
         <H1Styles>Let me build the website you need!</H1Styles>
         <div>
-          <Navbar bg="black" variant="dark">
-            <Nav className="mx-auto">
-              <Nav.Link style={style} as={Link} to="/">
-                HOME
-              </Nav.Link>
-              <Nav.Link style={style} as={Link} to="/portfolio">
-                PORTFOLIO
-              </Nav.Link>
-              <Nav.Link style={style} as={Link} to="/about">
-                ABOUT
-              </Nav.Link>
-              <Nav.Link style={style} as={Link} to="/resume">
-                RESUME
-              </Nav.Link>
-              <Nav.Link style={style} as={Link} to="/blog">
-                BLOG
-              </Nav.Link>
-              <Nav.Link style={style} as={Link} to="/contact">
-                CONTACT
-              </Nav.Link>
-            </Nav>
-          </Navbar>
+          
+              <Navbar bg="black" variant="dark">
+                <Nav className="mx-auto">
+                  <LinkStyle as={Link} className="nav-item nav-link" to="/">
+                    HOME
+                  </LinkStyle>
+                  <LinkStyle as={Link} className="nav-item nav-link" to="/portfolio">
+                    PORTFOLIO
+                  </LinkStyle>
+                  <LinkStyle as={Link} className="nav-item nav-link" to="/about">
+                    ABOUT
+                  </LinkStyle>
+                  <LinkStyle as={Link} className="nav-item nav-link" to="/resume">
+                    RESUME
+                  </LinkStyle>
+                  <LinkStyle  as={Link} className="nav-item nav-link" to="/blog">
+                    BLOG
+                  </LinkStyle>
+                  <LinkStyle as={Link} className="nav-item nav-link" to="/contact">
+                    CONTACT
+                  </LinkStyle>
+                </Nav>
+              </Navbar>
+  
         </div>
         <div>
           <DeclareP>2020 Shashank Jain. Developer of this website.</DeclareP>

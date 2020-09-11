@@ -13,20 +13,21 @@ const Myvideo = (props) => {
         backgroundColor: props.color,
         paddingRight: "100px",
         paddingLeft: "100px",
-        paddingTop: "100px",
+        paddingTop: "50px",
         paddingBottom: "50px",
       }}
     >
       <div >
-        <video width="100%" height="700" controls>
+      <PStyles>
+          This short video captures my personality, goals, and passions within
+          my career.{" "}
+        </PStyles>
+        <br/>
+        <video width="auto" height="600px" controls>
           <source src="about_video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <br />
-        <PStyles>
-          This short video captures my personality, goals, and passions within
-          my career.{" "}
-        </PStyles>
       </div>
     </div>
   );
