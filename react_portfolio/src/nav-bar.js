@@ -26,7 +26,7 @@ class NavBar extends Component {
                 <NavLink className="nav-item nav-link"
                   exact
                   as={Link}
-                  to="portfolio"
+                  to="/portfolio"
                   activeClassName="active"
                 >
                   PORTFOLIO

@@ -10,10 +10,11 @@ const ButtonStyles = styles.button`
     padding-right:30px;
     padding-left:30px;
     margin-left 20px;
-    color: blue;
+    color: black;
 
     &:hover  {
-        color: black;
+        color: white;
+        background-color:black
     }
 
 `;

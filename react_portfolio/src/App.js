@@ -13,12 +13,17 @@ import Blog from "./Components/Blog/Blog";
 import About from "./Components/About/About";
 import Home from "./Components/Home/Home";
 import ScrollToTop from "./scrollToTop";
+import TypingEffect from "./typing-effect";
+import ReactTypingEffect from 'react-typing-effect';
+
 
 function App() {
   return (
     <Router>
       <div className="App">
         <NavBar/>
+        <TypingEffect/>
+       
         <ScrollToTop>
         <Switch>
           
