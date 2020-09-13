@@ -1,5 +1,13 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
+import styled from 'styled-components';
+
+const H1Styles = styled.h1`
+    color :black;
+    padding-bottom:20px;
+    font-size:50px;
+    padding-top:50px`
+
 
 const Passion = (props) => {
   return (
@@ -16,10 +24,10 @@ const Passion = (props) => {
       <Container>
         <Row>
           <Col xs lg="6">
-            <img src="facts_image.jpg" width="100%" height="auto"/>
+            <img src="facts_image.jpg" width="100%" alt="facts_image"  height="auto"/>
           </Col>
           <Col xs lg="6" style={{ alignSelf: "center" }}>
-            <h1>My passion and focus is Website Development</h1>
+            <H1Styles>My passion and focus is Web Development</H1Styles>
             <br />
             <p>
               Let me be honest and cut the confusion. You need someone who is capable of creating 

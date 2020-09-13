@@ -18,7 +18,7 @@ const ButtonStyles = styles.button`
     }
 `;
 const instaButton = () => {
-  window.location.assign("https://www.instagram.com/shashank7jain/");
+  window.open("https://www.instagram.com/shashank7jain/",'_blank');
 };
 
 const Instagram = (props) => {

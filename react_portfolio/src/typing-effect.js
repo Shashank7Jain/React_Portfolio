@@ -8,7 +8,7 @@ const TypingEffect = (props) => {
         <div style={{padding:"100px"}}>
         <ReactTypingEffect
     text={props.text}
-        speed="400"
+        speed="200"
         eraseDelay="100"
         typingDelay="200"
         className="typing-styles"

@@ -21,6 +21,9 @@ const Astyled=styled.a`
         color: black;
     }
 `;
+const DescriptionTag=styled.p`
+    font-size:17px;
+`;
 
 const Education = (props) => {
   return (
@@ -43,7 +46,7 @@ const Education = (props) => {
                 {resume_data.education[0].uni},
               </Astyled> <i> {resume_data.education[0].year} </i>
             </PTag>
-            <p>{resume_data.education[0].description}</p>
+            <DescriptionTag>{resume_data.education[0].description}</DescriptionTag>
             <br />
 
            
@@ -57,7 +60,7 @@ const Education = (props) => {
                 {resume_data.education[1].uni},
               </Astyled> <i> {resume_data.education[1].year} </i>
             </PTag>
-            <p>{resume_data.education[1].description}</p>
+            <DescriptionTag>{resume_data.education[1].description}</DescriptionTag>
             
           </Col>
         </Row>

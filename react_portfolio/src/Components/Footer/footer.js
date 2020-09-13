@@ -31,10 +31,6 @@ const LinkStyle = styles(Nav.Link)`
   `;
 
 const Footer = () => {
-  const style = {
-    fontSize: "1.2rem",
-    padding: "10px",
-  };
   return (
     <DivStyles>
       <DivInner>

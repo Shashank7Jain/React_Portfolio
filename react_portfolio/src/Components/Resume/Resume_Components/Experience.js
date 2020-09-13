@@ -8,27 +8,31 @@ const Astyled=styled.a`
         color: black;
     }
 `;
+const PTag = styled.p`
+  font-size: 18px;
+  font-weight: 500;
+`;
 const Experience = (props) => {
   return (
     <div style={{ backgroundColor: "#fffdfc" }}>
-      <p>
+      <PTag>
         {" "}
-        <b>{props.exp.role.toUpperCase()}</b>{" "}
+        {props.exp.role.toUpperCase()}{" "}
         <i>
-          {props.exp.start_date} - {props.exp.end_date}{" "}
+          [{props.exp.start_date} - {props.exp.end_date}] {" "}
         </i>
-      </p>
-      <p>
+      </PTag>
+      <PTag>
         {props.exp.emp_type},{" "}
         <b>
           {" "}
           <Astyled href={props.exp.website}>{props.exp.company}</Astyled>{" "}
         </b>
         , {props.exp.city}{" "}
-      </p>
+      </PTag>
 
-      <p>{props.exp.description}</p>
-      <br />
+      <p style={{paddingBottom:"10px",fontSize:"17px"}}>{props.exp.description}</p>
+      
     </div>
   );
 };

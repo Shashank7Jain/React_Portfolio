@@ -15,7 +15,7 @@ class Home extends Component {
     return (
       <div>
         <section>
-        <TypingEffect text={["I'm Shashank Jain","Welcome to my Site!"]}/>
+        <TypingEffect text={["I'm Shashank Jain","My Life Runs On Codes!"]}/>
         </section>
         <section>
           <Passion />
