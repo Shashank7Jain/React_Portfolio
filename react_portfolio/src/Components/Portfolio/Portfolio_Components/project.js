@@ -16,7 +16,7 @@ const H5Styles = styled.h5`
 `; 
 const Project = (props) => {
   if (props.pro.website) {
-    var button = <AStyles href={props.pro.website}>View application</AStyles>;
+    var button = <AStyles  target="_blank"  href={props.pro.website}>View application</AStyles>;
   }
   return (
     <div>

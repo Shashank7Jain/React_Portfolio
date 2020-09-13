@@ -41,7 +41,7 @@ const Projects = (props) => {
               })}
               <PStyles style={{ textAlign: "left" }}>
                 For further information and code, kindly refer my{" "}
-                <Astyled href="https://github.com/Shashank7Jain">GitHub Repository</Astyled>
+                <Astyled  target="_blank" rel="noopener noreferrer" href="https://github.com/Shashank7Jain">GitHub Repository</Astyled>
               </PStyles>
             </Col>
           </Row>
