@@ -35,8 +35,8 @@ const Fact = (props) => {
             <H1Styles>A few fun facts about myself!</H1Styles>
             <br />
             <p>
-              I was born and bought up South India and my  hobbies are photography,
-              cooking, and badminton. My lucky number is 7 and I have travelled to many countries and in Sydney, I covered all most all the suburbs. 
+              I born and raised in South India. My  hobbies are photography,
+              cooking, and playing badminton. My lucky number is 7 and I love travelling on my bike and explore new places. 
             </p>
           </Col>
         </Row>

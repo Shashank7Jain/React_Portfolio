@@ -34,7 +34,7 @@ const Footer = () => {
   return (
     <DivStyles>
       <DivInner>
-        <H1Styles>Let me build the website you need!</H1Styles>
+        <H1Styles>Let me help you build a website!</H1Styles>
         <div>
           
               <Navbar bg="black" variant="dark">

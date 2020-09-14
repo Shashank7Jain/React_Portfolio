@@ -19,12 +19,12 @@ const Myvideo = (props) => {
     >
       <div >
       <PStyles>
-          This short video captures my personality, goals, and passions within
+          This short video captures my personality, and passions within
           my career.{" "}
         </PStyles>
         <br/>
         <video width="auto" height="600px" controls>
-          <source src="about_video.mp4" type="video/mp4" />
+          <source src="about_video.MOV"  />
           Your browser does not support the video tag.
         </video>
         <br />

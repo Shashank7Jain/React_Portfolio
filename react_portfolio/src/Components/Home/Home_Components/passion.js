@@ -30,7 +30,7 @@ const Passion = (props) => {
             <H1Styles>My passion and focus is Web Development</H1Styles>
             <br />
             <p>
-              Let me be honest and cut the confusion. You need someone who is capable of creating 
+              Let's get straight to the point. You need someone who is capable of creating a
               website that looks amazing and actually works. Bottom line, that's
               what I do. And if you want to learn more about me,
               pick up the phone and give me a call (or email).
