@@ -11,7 +11,7 @@ const Myvideo = (props) => {
       style={{
         height: "auto",
         backgroundColor: props.color,
-        paddingRight: "100px",
+        paddingRight: "100px ",
         paddingLeft: "100px",
         paddingTop: "50px",
         paddingBottom: "50px",
@@ -23,7 +23,7 @@ const Myvideo = (props) => {
           my career.{" "}
         </PStyles>
         <br/>
-        <video width="auto" height="600px" controls>
+        <video width="100%" height="auto" controls>
           <source src="about_video.MOV"  />
           Your browser does not support the video tag.
         </video>

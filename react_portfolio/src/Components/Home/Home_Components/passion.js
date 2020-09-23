@@ -29,7 +29,7 @@ const Passion = (props) => {
           <Col xs lg="6" style={{ alignSelf: "center" }}>
             <H1Styles>My passion and focus is Web Development</H1Styles>
             <br />
-            <p>
+            <p style={{fontFamily:"'Epilogue', sans-serif"}}>
               Let's get straight to the point. You need someone who is capable of creating a
               website that looks amazing and actually works. Bottom line, that's
               what I do. And if you want to learn more about me,

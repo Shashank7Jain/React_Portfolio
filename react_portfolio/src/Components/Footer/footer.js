@@ -8,8 +8,9 @@ import { Link } from "react-router-dom";
 const DivStyles = styles.div`
     height :auto;
     background: black;`;
+    
 const DivInner = styles.div`
-    padding:20px`;
+    padding:40px`;
 const H1Styles = styles.h1`
     color :white;
     padding-bottom:50px;

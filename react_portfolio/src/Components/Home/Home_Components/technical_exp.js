@@ -18,8 +18,8 @@ const Technical = (props) => {
         <div >
             <Container>
                 <Row>
-                    <Col xs lg={2}><ImgStyles src="logo512.png" width="150px" height="150px" alt="ReactJS" /></Col>
-                    <Col xs lg={2}><ImgStyles src="angular_logo.png" width="150px" height="150px" alt="Angular" /></Col>
+                    <Col xs lg={2}><ImgStyles src="logo512.png" width="auto" height="auto" alt="ReactJS" /></Col>
+                    <Col xs lg={2}><ImgStyles src="angular_logo.png" width="auto" height="auto" alt="Angular" /></Col>
                     <Col xs lg={2}><ImgStyles src="spring_logo.png" width="150px" height="150px" alt="Spring-Frameworks" /></Col>
                     <Col xs lg={2}><ImgStyles src="nodejs_logo.png" width="150px" height="150px" alt="Nodejs" /></Col>
                     <Col xs lg={2}><ImgStyles src="html_css_js.png" width="150px" height="150px" alt="HTML_CSS_JS" /></Col>
