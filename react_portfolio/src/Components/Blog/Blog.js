@@ -10,7 +10,7 @@ class Blog extends Component {
     render() { 
         return (
             <section>
-            <TypingEffect text={["This page is Under Construction!"]}/>
+            <TypingEffect text={["This page is Under Construction."]}/>
         </section>
            );
     }

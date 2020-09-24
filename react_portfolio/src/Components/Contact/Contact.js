@@ -11,7 +11,7 @@ class Contact extends Component {
     render() { 
         return ( <div>
              <section>
-                <TypingEffect text={["Connect with me Today!"]}/>
+                <TypingEffect text={["Connect with me Today."]}/>
             </section>
             <section>
                 <ReactOut></ReactOut>

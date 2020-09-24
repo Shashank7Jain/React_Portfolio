@@ -3,8 +3,8 @@ import styled from 'styled-components';
 
 const DivStyles = styled.div`
     height: auto;
-    background: #fffdfc ;
-    padding: 100px;
+    background: #f7f7f75e ;
+    padding: 50px 100px;
     
 
 `
@@ -12,11 +12,13 @@ const H1Styles = styled.h1`
     color :black;
     padding-bottom:20px;
     font-size:60px;
-    padding-top:50px`
+    padding-top:50px;
+    font-family:auto
+    font-weight:600`;
 
 const AStyles = styled.a`
     color: #e0b057s;
-    font-weight: 40;
+    font-weight: 400;
     text-decoration:none !important;
     &:hover  {
         color: black;
@@ -29,7 +31,7 @@ const ReactOut = (props) => {
         <DivStyles>
             <div style={{height:"auto", outline: "2px solid #000"}}>
             <H1Styles>Reach out to me directly!  </H1Styles>
-            <h1 style={{paddingBottom:"40px"}}>Call: <AStyles href="tel:0469321345">0469321345</AStyles> || Email: <AStyles href="mail:1509sj@gmail.com">1509sj@gmail.com</AStyles></h1>
+            <h1 style={{paddingBottom:"40px"}}> <AStyles href="tel:0469321345">0469321345</AStyles> ||  <AStyles href="mail:1509sj@gmail.com">1509sj@gmail.com</AStyles></h1>
             </div>
         </DivStyles>
         <div>

@@ -15,6 +15,7 @@ const H1Styles = styles.h1`
     color :white;
     padding-bottom:50px;
     font-size:50px;
+    font-weight:600;
     padding-top:50px`;
 const DeclareP = styles.p`
     color: white;
