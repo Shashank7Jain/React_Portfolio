@@ -14,7 +14,7 @@ const PTag = styled.p`
 `;
 const Experience = (props) => {
   return (
-    <div style={{ backgroundColor: "#fffdfc" }}>
+    <div>
       <PTag>
         {" "}
         {props.exp.role.toUpperCase()}{" "}

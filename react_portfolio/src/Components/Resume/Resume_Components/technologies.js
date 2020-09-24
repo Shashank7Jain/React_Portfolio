@@ -11,17 +11,18 @@ const H5Styles = styled.h5`
 const ListStyles = styled.li`
   font-size: 18px; 
   margin: 5px; 
+
 `;
 
 const Technologies = (props) => {
   return (
-    <div style={{ paddingLeft: "100px",paddingRight:"100px", paddingTop:"50px",paddingBottom:"50px",textAlign:"left",backgroundColor: "#fffdfc",objectFit: "contain"}}>
+    <div style={{ paddingLeft: "100px",paddingRight:"100px", paddingTop:"50px",paddingBottom:"50px",textAlign:"left",backgroundColor: "#f7f7f75e ",objectFit: "contain"}}>
       <Container fluid>
         <Row>
-          <Col xs lg="4">
+          <Col xs={4}>
             <H5Styles>Technologies</H5Styles>
           </Col>
-          <Col xs lg="4">
+          <Col xs={4}>
             <h5>DAY-TO-DAY COMFORT</h5>
             <div >
               <ul style={{ textAlign: "left" }}>

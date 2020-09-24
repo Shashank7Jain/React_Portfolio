@@ -20,13 +20,13 @@ class Home extends Component {
         <section>
           <Passion />
         </section>
-        <section>
-          <Myvideo color={"white"}/>
-        </section>
+        
         <section>
           <Technical />
         </section>
-        
+        <section>
+          <Myvideo color={"#f7f7f75e"}/>
+        </section>
         <section>
           <Help />
         </section>

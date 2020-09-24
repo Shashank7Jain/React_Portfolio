@@ -13,7 +13,7 @@ const H1Styles = styles.h1`
 
 const Introduction = (props) => {
   return (
-    <div style={{ height: "auto", padding: "100px", backgroundColor:"#fffdfc" }}>
+    <div style={{ height: "auto", paddingTop: "100px",paddingRight: "100px",paddingLeft: "100px",paddingBottom: "50px", backgroundColor:"#f7f7f75e" }}>
       <H1Styles>
         I'm a dedicated developer
       </H1Styles>

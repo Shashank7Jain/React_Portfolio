@@ -12,6 +12,7 @@ const H1Styles = styles.h1`
 const PStyles = styles.p`
     color: #000000;
     font-size: 20px;
+    padding:60px 20px;
 `;
 
 const ButtonStyles = styles.button`
@@ -38,17 +39,11 @@ const Hireme = (props) => {
     <div style={{ backgroundColor: "white" }}>
       <DivStyles>
         <H1Styles>Hire me today!</H1Styles>
-        <br />
-        <br />
-        <br />
         <PStyles>
-          Now that you know what expericence I have and what I might do for you,
-          feel free to reach out. <br /> For committed company, I really love to
+          Now that you know what experience I have and what I might do for you,
+          feel free to reach out. For committed company, I really love to
           be a part of their success.
         </PStyles>
-        <br />
-        <br />
-        <br />
         <ButtonStyles type="button" onClick={contactButton}>
           CONTACT ME TODAY
         </ButtonStyles>

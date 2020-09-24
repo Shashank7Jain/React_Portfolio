@@ -14,11 +14,8 @@ const Fact = (props) => {
     <div
       style={{
         height: "auto",
-        paddingRight: "100px",
-        paddingLeft: "100px",
-        paddingTop: "100px",
-        paddingBottom: "100px",
-        backgroundColor: "#fffdfc",
+        padding:"50px 100px",
+        backgroundColor: "#f7f7f75e",
       }}
     >
       <Container>
@@ -34,7 +31,7 @@ const Fact = (props) => {
           <Col xs lg="6" style={{ alignSelf: "center" }}>
             <H1Styles>A few fun facts about myself!</H1Styles>
             <br />
-            <p>
+            <p style={{fontSize:"19px"}}>
               I born and raised in South India. My  hobbies are photography,
               cooking, and playing badminton. My lucky number is 7 and I love travelling on my bike and explore new places. 
             </p>

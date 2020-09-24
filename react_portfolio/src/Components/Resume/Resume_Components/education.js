@@ -30,10 +30,10 @@ const Education = (props) => {
     <div style={{ padding:"50px 100px", textAlign: "left" }}>
       <Container fluid>
         <Row>
-          <Col xs lg={4}>
+          <Col xs ={4}>
             <H5Styles>Education</H5Styles>
           </Col>
-          <Col xs lg={8}>
+          <Col xs ={8}>
             
             
             <PTag>

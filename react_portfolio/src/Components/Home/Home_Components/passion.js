@@ -6,9 +6,7 @@ const H1Styles = styled.h1`
     color :black;
     padding-bottom:20px;
     font-size:50px;
-    padding-top:50px`
-
-
+    `
 const Passion = (props) => {
   return (
     <div
@@ -18,7 +16,7 @@ const Passion = (props) => {
         paddingLeft: "100px",
         paddingTop: "100px",
         paddingBottom: "50px",
-        backgroundColor: "#fffdfc",
+        backgroundColor: "f7f7f75e",
       }}
     >
       <Container>

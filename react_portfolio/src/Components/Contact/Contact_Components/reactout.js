@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const DivStyles = styled.div`
     height: auto;
     background: #f7f7f75e ;
-    padding: 50px 100px;
+    padding: 100px 100px;
     
 
 `

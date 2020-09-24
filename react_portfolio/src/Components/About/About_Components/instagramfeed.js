@@ -30,14 +30,14 @@ const Instagram = (props) => {
         paddingLeft: "100px",
         paddingTop: "50px",
         paddingBottom: "50px",
-        backgroundColor: "#fffdfc",
+        backgroundColor: "#f7f7f75e",
       }}
     >
       <div>
         <Container>
           <Row style={{ paddingTop: "20px" }}>
             <Col xs lg="12">
-              <h1 style={{ fontSize: "60px", paddingBottom:"20px" }}>My Instagram Feed</h1>
+              <h1 style={{ fontSize: "50px", paddingBottom:"20px" }}>My Instagram Feed</h1>
 
             </Col>
           </Row>

@@ -19,13 +19,13 @@ class Experiences extends Component {
     }
     render() { 
         return (   
-        <div style={{ padding:"50px 100px", textAlign:"left", backgroundColor: "#fffdfc" }}>
+        <div style={{ padding:"50px 100px", textAlign:"left", backgroundColor: "#f7f7f75e " }}>
         <Container fluid>
           <Row>
             <Col xs={4}>
              <H5Styles> Experience</H5Styles>
             </Col>
-            <Col>
+            <Col  xs={8}>
                 {resume_data.experiences.map((exp,index)=>{
                     return <Experience exp={exp}/>
                 })}

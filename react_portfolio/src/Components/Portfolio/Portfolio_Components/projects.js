@@ -6,7 +6,7 @@ import styles from "styled-components";
 
 const Divstyles = styles.div`
   height:auto;
-  padding:100px;
+  padding:50px 100px;
 `;
 const H5Styles = styles.h5`
   font-size:24px;
@@ -39,13 +39,17 @@ const Projects = (props) => {
               {projects.Projects.map((pro, index) => {
                 return <Project pro={pro} />;
               })}
-              <PStyles style={{ textAlign: "left" }}>
-                For further information and code, kindly refer my{" "}
-                <Astyled  target="_blank" rel="noopener noreferrer" href="https://github.com/Shashank7Jain">GitHub Repository</Astyled>
+              
+            </Col>
+          </Row>
+          <Row>
+            <Col  md={{  offset: 4 }}>
+              <PStyles >
+                  For further information and code, kindly refer my{" "}
+                  <Astyled  target="_blank" rel="noopener noreferrer" href="https://github.com/Shashank7Jain">GitHub Repository</Astyled>
               </PStyles>
             </Col>
           </Row>
-          <Row></Row>
         </Container>
       </div>
     </Divstyles>

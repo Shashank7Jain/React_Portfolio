@@ -15,5 +15,4 @@ const TypingEffect = (props) => {
       /> 
       </div>);
 }
- 
 export default TypingEffect;

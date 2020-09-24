@@ -11,8 +11,8 @@ const Myvideo = (props) => {
       style={{
         height: "auto",
         backgroundColor: props.color,
-        paddingRight: "100px ",
-        paddingLeft: "100px",
+        paddingRight: "150px ",
+        paddingLeft: "150px",
         paddingTop: "50px",
         paddingBottom: "50px",
       }}

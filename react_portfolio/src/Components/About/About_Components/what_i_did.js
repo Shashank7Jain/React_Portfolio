@@ -4,7 +4,7 @@ import styles from "styled-components";
 const DivStyles = styles.div`
     height:auto;
     background-color: white;
-    padding:100px;
+    padding:50px 100px;
 
     `;
 const H1Styles = styles.h1`
@@ -40,7 +40,6 @@ const WhatIDid = (props) => {
   return (
       <div style={{ backgroundColor: "white" }}>
         <DivStyles>
-          <p style={{ height: "40px" }}></p>
           <H1Styles>What I've done & what I can do?</H1Styles>
           <br />
           <br />
