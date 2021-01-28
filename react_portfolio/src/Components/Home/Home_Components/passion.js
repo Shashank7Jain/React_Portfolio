@@ -16,7 +16,7 @@ const Passion = (props) => {
         paddingLeft: "100px",
         paddingTop: "100px",
         paddingBottom: "50px",
-        backgroundColor: "f7f7f75e",
+        backgroundColor:"#f7f7f75e",
       }}
     >
       <Container>

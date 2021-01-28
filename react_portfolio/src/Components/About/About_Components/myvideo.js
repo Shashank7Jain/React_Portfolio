@@ -5,7 +5,7 @@ const PStyles = styles.p`
     font-size: 20px;
 `;
 const Myvideo = (props) => {
-  console.log(props.color);
+ // console.log(props.color);
   return (
     <div
       style={{

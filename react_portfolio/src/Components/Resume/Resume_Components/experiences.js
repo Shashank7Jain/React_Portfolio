@@ -27,7 +27,7 @@ class Experiences extends Component {
             </Col>
             <Col  xs={8}>
                 {resume_data.experiences.map((exp,index)=>{
-                    return <Experience exp={exp}/>
+                    return <Experience exp={exp} key={index}/>
                 })}
             </Col>
           </Row>

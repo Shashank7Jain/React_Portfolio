@@ -31,12 +31,7 @@ class NavBar extends Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mx-auto">
-                <LinkStyle className="nav-item nav-link"
-                  
-                  as={Link}
-                  to="/portfolio"
-                  
-                >
+                <LinkStyle className="nav-item nav-link" as={Link} to="/portfolio">
                   PORTFOLIO
                 </LinkStyle>
                 <LinkStyle className="nav-item nav-link" as={Link}  to="/about">

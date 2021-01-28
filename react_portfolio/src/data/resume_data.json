@@ -1,89 +1,77 @@
 {
- "experiences":
- [
-   {
-        "emp_type":"Christmas Casual Employee",
-      "role":"Valet Driver",
-      "company":"Westfield",
-      "website":"https://www.westfield.com.au/",
-      "suburb":"Burwood",
-      "city":"SYD",
-      "start_date":"Nov-19",
-      "end_date":"Feb-20",
-      "description":"Lamborgini, Telsa, Bentley, Aston Martin, Maclaren, Porsche, BMW, MB, and many more and I think it would be better to ask what I did drew because this job was more like a dream to drive 6-8 figures cars. These four months were excellent as well as risky, and key take away from this job is coordination, steadiness and treating others belongs as ours.  "
+  "experiences": [
+    {
+      "emp_type": "Part-time Employee",
+      "role": "Java Developer",
+      "company": "SSIS Technologies",
+      "website": "http://www.ssis.co.in/",
+      "suburb": "Dwaraka Nager",
+      "city": "Vizag",
+      "start_date": "Jul-17",
+      "end_date": "Dec-17",
+      "description": "Created a desktop application using Swing, JBDC and oracle 11g. It was a warehouse management system of a local company. Where I  designed, developed, tested, and created documentation file from the scratch. I even managed the clients and other stakeholder’s feedback for the final production channel and provided training to all the client's employee. "
     },
     {
-      "emp_type":"Casual Employee",
-      "role":"Customer Representative",
-      "company":"Myer",
-      "website":"https://www.myer.com.au/",
-      "suburb":"Sydney City",
-      "city":"SYD",
-      "start_date":"Nov-18",
-      "end_date":"Present",
-      "description":"As a sales representative, I respond to customers queries, guide and provide training to new joiners for effective customer service. Manage cash register, POS, handling calls, reaching the KPI's. With this job, I developed interpersonal skills, patience, and empathy. Hope to see you next time in the Myer Sydney City. " 
-    },  
+      "emp_type": "Christmas Casual Employee",
+      "role": "Valet Driver",
+      "company": "Westfield",
+      "website": "https://www.westfield.com.au/",
+      "suburb": "Burwood",
+      "city": "SYD",
+      "start_date": "Nov-19",
+      "end_date": "Feb-20",
+      "description": "Lamborgini, Telsa, Bentley, Aston Martin, Maclaren, Porsche, BMW, MB, and many more and I think it would be better to ask what I did drew because this job was more like a dream to drive 6-8 figures cars. These four months were excellent as well as risky, and key take away from this job is coordination, steadiness and treating others belongs as ours.  "
+    },
+
     {
-      "emp_type":"Contracter Employee",
-      "role":"Delivery Driver",
-      "company":"Menulog",
-      "website":"https://www.menulog.com.au/",
-      "suburb":"Central Area",
-      "city":"SYD",
-      "start_date":"Mar-20",
-      "end_date":"Present",
-      "description":"As a delivery driver, my objective was to provide food as quickly as possible by making sure I'm is safe, driving like a pro,paying great attention to details, and giving good customer care. In this job, I raced the rain, chased the sunset and enjoyed the ride as a journey of life. " 
+      "emp_type": "Casual Employee",
+      "role": "Stock Taker",
+      "company": "RGIS Australia",
+      "website": "https://www.rgisinv.com.au/",
+      "suburb": "Sydney Suburbs",
+      "city": "SYD",
+      "start_date": "Jul-19",
+      "end_date": "Present",
+      "description": "As a stock taker, I travelled from Mona Vale to Campbelltown, Springwood to Maroubra to count the stock in Kmart, Coles, Bonds, Collette and many more. In this job, I learned the importance of numbers, accuracy and speed. The best part is learning about the products, prices and presentation of stock. "
     },
     {
-      "emp_type":"Casual Employee",
-      "role":"Stock Taker",
-      "company":"RGIS Australia",
-      "website":"https://www.rgisinv.com.au/",
-      "suburb":"Sydney Suburbs",
-      "city":"SYD",
-      "start_date":"Jul-19",
-      "end_date":"Present",
-      "description":"As a stock taker, I travelled from Mona Vale to Campbelltown, Springwood to Maroubra to count the stock in Kmart, Coles, Bonds, Collette and many more. In this job, I learned the importance of numbers, accuracy and speed. The best part is learning about the products, prices and presentation of stock. " 
+      "emp_type": "Casual Employee",
+      "role": "Crew Team",
+      "company": "Showcall Crewing",
+      "website": "https://showcallcrewing.com.au/",
+      "suburb": "Sydney Suburbs",
+      "city": "SYD",
+      "start_date": "Jul-19",
+      "end_date": "Jul-20",
+      "description": "Showcall is an event management team where I got many chances to meet and watch the shows of the world-renowned personality such as Eminem, Taylor Swift, Adam Levine, Kiet Urban, Post Malone, Alex Turner and many more. My role was to help the management with the stage and the grounds setup. It is a great job where I learned a lot about audio, video, lights, and carbs. It was a physical job from which I mastered communication skills, active listening and teamwork. "
     },
-     {
-      "emp_type":"Casual Employee",
-      "role":"Crew Team",
-      "company":"Showcall Crewing",
-      "website":"https://showcallcrewing.com.au/",
-      "suburb":"Sydney Suburbs",
-      "city":"SYD",
-      "start_date":"Jul-19",
-      "end_date":"Present",
-      "description":"Showcall is an event management team where I got many chances to meet and watch the shows of the world-renowned personality such as Eminem, Taylor Swift, Adam Levine, Kiet Urban, Post Malone, Alex Turner and many more. My role was to help the management with the stage and the grounds setup. It is a great job where I learned a lot about audio, video, lights, and carbs. It was a physical job from which I mastered communication skills, active listening and teamwork. " 
-    },
-         {
-      "emp_type":"Part-time Employee",
-      "role":"Java Developer",
-      "company":"SSIS Technologies",
-      "website":"http://www.ssis.co.in/",
-      "suburb":"Dwaraka Nager",
-      "city":"Vizag",
-      "start_date":"Jul-17",
-      "end_date":"Dec-17",
-      "description":"The project was a desktop application using Swing, JBDC and oracle 11g. It was a warehouse management system of a local company. Where I  designed, developed, tested, and created documentation file  the application from the scratch. I even managed the clients and other stakeholder’s feedback for the final product channel and provided training to all the client's employee. " 
+    {
+      "emp_type": "Casual Employee",
+      "role": "Customer Representative",
+      "company": "Myer",
+      "website": "https://www.myer.com.au/",
+      "suburb": "Sydney City",
+      "city": "SYD",
+      "start_date": "Nov-18",
+      "end_date": "Jan-21",
+      "description": "As a sales representative, I respond to customers queries, guide and provide training to new joiners for effective customer service. Manage cash register, POS, handling calls, reaching the KPI's. With this job, I developed interpersonal skills, patience, and empathy. Hope to see you next time in the Myer Sydney City. "
     }
+
   ],
-  "education":[
+  "education": [
     {
-      "qualification":"Master of Information Technology & Master of Information Technology Management",
+      "qualification": "Master of Information Technology & Master of Information Technology Management",
       "uni": "The University of Sydney",
       "location": "Sydney, Australia",
       "major": "Software Engineering",
-      "year":"2018-2020",
-      "description":"I moved to Australia for doing a Master's degree, and this move has changed me a lot as it allowed me to put more personal effort into the learning process and engage myself into multiple tasks. It also encouraged me to develop new personal and professional skills like independence, self-motivation, time management and many more. "
+      "year": "2018-2020"
     },
     {
-      "qualification":"Bachelor of Computer Science",
+      "qualification": "Bachelor of Computer Science",
       "uni": "Andhra University",
       "location": "Visakhapatnam, India",
       "major": "Software Engineering",
-      "year": "2014-2018",
-      "description":"My bachelor degree has taught me life lessons such as to be creative, try new things, dare to be different, or simply dare to be yourself and the most important my actions will have a purpose and my life will be lived on my own premises. These four years of my education life made me decide to take future steps towards my long term goals."
+      "year": "2014-2018"
     }
-    ]
+  ]
 }

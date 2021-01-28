@@ -2,8 +2,7 @@
   "Projects":[
     {
       "name":"Capstone Project Management System | Web-based Application| PEAN Stack",
-      "description":"The final year post-graduate project was developed using PostgreSQL, Angular, Express and NodeJS. This project helps the University of Sydney manage the capstone projects by having three different modules for the client, student, and admin. Where the client can propose project, students and enrol into a project, and admin can manage the interaction.",
-      "website":"http://capstone-env.eba-gabpspyj.ap-southeast-2.elasticbeanstalk.com/login"
+      "description":"The final year post-graduate project was developed using PostgreSQL, Angular, Express and NodeJS. This project helps the University of Sydney manage the capstone projects by having three different modules for the client, student, and admin. Where the client can propose project, students and enrol into a project, and admin can manage the interaction."
     },
     {
       "name":"Data Analytics Web Application| Web Application Development| MEAN Stack",

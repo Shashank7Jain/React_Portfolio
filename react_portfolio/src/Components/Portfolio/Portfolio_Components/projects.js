@@ -26,7 +26,7 @@ const Astyled=styles.a`
 `;
 
 const Projects = (props) => {
-  console.log(projects);
+ // console.log(projects);
   return (
     <Divstyles>
       <div>
@@ -37,7 +37,7 @@ const Projects = (props) => {
             </Col>
             <Col xs={8}>
               {projects.Projects.map((pro, index) => {
-                return <Project pro={pro} />;
+                return <Project pro={pro} key={index} />;
               })}
               
             </Col>

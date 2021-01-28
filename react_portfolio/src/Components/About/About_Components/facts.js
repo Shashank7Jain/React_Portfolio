@@ -31,7 +31,7 @@ const Fact = (props) => {
           <Col xs lg="6" style={{ alignSelf: "center" }}>
             <H1Styles>A few fun facts about myself!</H1Styles>
             <br />
-            <p style={{fontSize:"19px"}}>
+            <p style={{fontFamily:"'Epilogue', sans-serif"}}>
               I born and raised in South India. My  hobbies are photography,
               cooking, and playing badminton. My lucky number is 7 and I love travelling on my bike and explore new places. 
             </p>
