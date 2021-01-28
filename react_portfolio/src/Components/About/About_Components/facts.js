@@ -32,9 +32,8 @@ const Fact = (props) => {
             <H1Styles>A few fun facts about myself!</H1Styles>
             <br />
             <p style={{fontFamily:"'Epilogue', sans-serif"}}>
-              I born and raised in South India. My  hobbies are photography,
-              cooking, and playing badminton. My lucky number is 7 and I love travelling on my bike and explore new places. 
-            </p>
+              City dweller who loves to travel, partake in outdoor activites, and find new adventures along the way. I have found that nothing satisfies me more than meeting new people, developing new relationships, solving problems, and contributing to the overall growth of a business.
+        </p>
           </Col>
         </Row>
       </Container>

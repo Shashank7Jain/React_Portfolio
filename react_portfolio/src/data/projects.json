@@ -2,12 +2,10 @@
   "Projects":[
     {
       "name":"Capstone Project Management System | Web-based Application| PEAN Stack",
-      "description":"The final year post-graduate project was developed using PostgreSQL, Angular, Express and NodeJS. This project helps the University of Sydney manage the capstone projects by having three different modules for the client, student, and admin. Where the client can propose project, students and enrol into a project, and admin can manage the interaction."
-    },
+      "description":"The client was from the University of Sydney. The project aims to build a website for the University of Sydney, which manages one of the university's major units. It helps to overcome the existing system's challenges by managing the capstone project between the client, student, and admin by automating manual work."},
     {
       "name":"Data Analytics Web Application| Web Application Development| MEAN Stack",
-      "description":"Post-graduate web application assignment using Wikipedia API. The application analyses the real-time data using the MVC architecture. We have used Angular 9 for frontend, Node.js and express for server-side scripting and MongoDB to store and manage the DB."
-    },
+      "description":"The project aims to teach students how to design and implement a typical three-tier web application by querying and computing various summary statistics at the server-side and present the results on a webpage."    },
     {
       "name":"Just Grocery | Object-Oriented Framework| Spring Framework & SQL Database",
       "description":"Post-graduate assignment Just Grocery is based on web technology which allows customers to save their generic grocery Wishlist and notify the nearest and cheapest retailer for upcoming shopping. Additionally, the application boost revenue for retailers by marketing their deals, help customers compare their prices and provide information on groceries from major retailers."
