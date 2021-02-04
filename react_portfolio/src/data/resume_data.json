@@ -1,6 +1,16 @@
 {
   "experiences": [
     {
+      "emp_type": "Full-time Employee",
+      "role": "Web Developer",
+      "company": "AI Australia",
+      "website": "https://aiaustralia.org/",
+      "suburb": "Wynward",
+      "city": "Sydney",
+      "start_date": "Dec-20",
+      "end_date": "Present",
+      "description": "Currently, working on the client's project to create an MVP using ReactJS, FireBase and React Native."    },
+    {
       "emp_type": "Part-time Employee",
       "role": "Java Developer",
       "company": "SSIS Technologies",
@@ -12,7 +22,7 @@
       "description": "Created a desktop application using Swing, JBDC and oracle 11g. It was a warehouse management system of a local company. Where I  designed, developed, tested, and created documentation file from the scratch. I even managed the clients and other stakeholder’s feedback for the final production channel and provided training to all the client's employee. "
     },
     {
-      "emp_type": "Christmas Casual Employee",
+      "emp_type": "Casual Employee",
       "role": "Valet Driver",
       "company": "Westfield",
       "website": "https://www.westfield.com.au/",

@@ -15,10 +15,12 @@ const PTag = styled.p`
 const Experience = (props) => {
   return (
     <div>
+      
       <PTag>
         {" "}
-        {props.exp.role.toUpperCase()}{" "}
         <i>
+        {props.exp.role.toUpperCase()}{" "}
+        
           [{props.exp.start_date} - {props.exp.end_date}] {" "}
         </i>
       </PTag>

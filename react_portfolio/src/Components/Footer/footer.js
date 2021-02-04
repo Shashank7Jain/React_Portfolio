@@ -19,8 +19,11 @@ const H1Styles = styles.h1`
     padding-top:50px`;
 const DeclareP = styles.p`
     color: white;
-    margin-top:50px;
-    margin-bottom:50px;
+    margin-top:5%;
+    margin-bottom:2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     `;
 const LinkStyle = styles(Nav.Link)`     
     font-size:18px;
@@ -63,10 +66,8 @@ const Footer = () => {
               </Navbar>
   
         </div>
-        <div>
-          <DeclareP>2020 Shashank Jain. Developer of this website.</DeclareP>
-        </div>
-        <div>
+
+        <div style={{marginTop:"5%"}}>
           <SocialMediaIconsReact
             borderColor="rgba(0,0,0,0.25)"
             borderWidth="0"
@@ -131,6 +132,9 @@ const Footer = () => {
             url="mailto:sjai6788@uni.sydney.edu.au"
             size="25"
           />
+        </div>
+        <div>
+          <DeclareP>Made with &nbsp;<span style={{ fontSize:"250%", color:"red"}}>&hearts;</span></DeclareP>
         </div>
       </DivInner>
     </DivStyles>
